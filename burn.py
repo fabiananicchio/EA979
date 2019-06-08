@@ -49,8 +49,7 @@ for y in range(10):
 		if (x < (w-400000)):
 			rgb[x,0] = 0
 			rgb[x,1] = 0
-			rgb[x,2] = 0			
-		x+=1
+			rgb[x,2] = 0
 	printmodel()	
 	print("fase "+ str(y))
 
