@@ -23,25 +23,25 @@ P = np.array([[1, 2, 3],
 		   [10, 11, 12]])
 
 #y=1
-for y in range(20):
+for y in range(200):
 	if y ==0:
 		y=1
 	for x in range(len(rgb)): 
 		if x == 0:
 			x=1
-		w = params[y] * 100000
+		w = params[y] * 10000
 # primeira camada - vermelho
 		if (x < w):
 			rgb[x,0] = 255
 			#rgb[x,1] = 0
 			#rgb[x,2] = 0
 # segunda camada - laranja
-		if (x < (w-100000)):
+		if (x < (w-10000)):
 			rgb[x,0] = 250
 			rgb[x,1] = 170
 			#rgb[x,2] = 0
 # terceira camada - preto
-		if (x < (w-200000)):
+		if (x < (w-20000)):
 			rgb[x,0] = 0
 			rgb[x,1] = 0
 			rgb[x,2] = 0			
