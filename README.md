@@ -9,6 +9,6 @@ $ pip install PyAudio
 $ pip install scipy 
 $ pip install plyfile
 
-Atention: Python must be in version 3.6 and pip must be in the latest version
+Atention: Python must be in version 3.6 and pip must be in the lastest version
 
 Steps to compile and execute:
